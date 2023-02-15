@@ -1,5 +1,5 @@
-from asyncore import read, write
 import sys
+from this import s
 from time import sleep
 import os
 # inports
@@ -55,20 +55,20 @@ sleep(0.2)
 os.system('CLS') 
 print("NAD.py 1.1") # version
 sleep(2)
-print("#  # ### #   #   ### #")
-print("#  # #   #   #   # # #")
-print("#### ### #   #   # # #")
-print("#  # #   #   #   # # ")
-print("#  # ### ### ### ### #")
-sleep(2)
 os.system('CLS')
 print("|\    |     /\     ###      ███ █   █")
 print("| \   |    /  \    #  #    █  █  █ █ ")
 print("|  \  |   -----#   #  #    ███    █  ")
 print("|   \ |  /      #  #  #    █      █  ")
 print("|    \| /        # ###  ▄  █      █  ")
-
-print("System is online. NADpy 1.1.0, progame1201")
+print("")
+print("---  |---  \   /   |    | |---   |---\      /\     ----- |--- ");
+print("|    |      \ /    |    | |   \  |   |     /  \      |   |    ");
+print("---  |---   / \    |    | |---   |   |    ------     |   |--- ");
+print("  |  |     /   \   |    | |      |   |   /      \    |   |    ");
+print("---  |--- /     \  |----| |      |---/  /        \   |   |--- ");
+print("")
+print("System is online. NADpy 1.1.1, progame1201")
 print("type help to see all commands")
 st = False
 usn = 0 # - user name
@@ -77,7 +77,9 @@ usc = 0 # - user created?
 login = False # - LogIn
 ips = False # - ip seted?
 ip = False # - ip 
-
+i100 = False
+if i100 == True :
+   print("and now you fucked 1000000000000 people!");
 while True: 
   S = input() # s - input command
   if S == "start" : 
@@ -139,8 +141,10 @@ while True:
      print("setip - set ip")
      print("exit - exit")
      print("restart - restart the program")
+     print ("i.. i dont know what this command doing")
      S = 0;
   if S == "Log" :
+    print("Loging of valuves")
     print(S)
     print (st)
     print(usn)
@@ -150,16 +154,25 @@ while True:
     print(ip)
     print(ips)
   if S == "clear" :
-   os.system('CLS')
-   print("|\    |     /\     ###      ███ █   █")
-   print("| \   |    /  \    #  #    █  █  █ █ ")
-   print("|  \  |   -----#   #  #    ███    █  ")
-   print("|   \ |  /      #  #  #    █      █  ")
-   print("|    \| /        # ###  ▄  █      █  ")
- 
-   print("System is online. NADpy 1.1.0, progame1201")
-   print("type help to see all commands")
-   S = 0
+     os.system('CLS')
+     print("|\    |     /\     ###      ███ █   █");
+     print("| \   |    /  \    #  #    █  █  █ █ ");
+     print("|  \  |   -----#   #  #    ███    █  ");
+     print("|   \ |  /      #  #  #    █      █  ");
+     print("|    \| /        # ###  ▄  █      █  ");
+     print("");
+     print("---  |---  \   /   |    | |---   |---\      /\     ----- |--- ");
+     print("|    |      \ /    |    | |   \  |   |     /  \      |   |    ");
+     print("---  |---   / \    |    | |---   |   |    ------     |   |--- ");
+     print("  |  |     /   \   |    | |      |   |   /      \    |   |    ");
+     print("---  |--- /     \  |----| |      |---/  /        \   |   |--- ");
+     print("")
+     print("System is online. NADpy 1.1.1, progame1201");
+     print("type help to see all commands");
+     S = 0
+     if i100 == True :
+         print("")
+         print("and now you fucked 1000000000000 people!")
   if S == "adduser" :
     usn = input("User name:")
     usp = input("User password:")
@@ -255,20 +268,20 @@ while True:
       os.system('CLS') 
       print("NAD.py 1.1") # version
       sleep(2)
-      print("#  # ### #   #   ### #")
-      print("#  # #   #   #   # # #")
-      print("#### ### #   #   # # #")
-      print("#  # #   #   #   # # ")
-      print("#  # ### ### ### ### #")
-      sleep(2)
       os.system('CLS')
       print("|\    |     /\     ###      ███ █   █")
       print("| \   |    /  \    #  #    █  █  █ █ ")
       print("|  \  |   -----#   #  #    ███    █  ")
       print("|   \ |  /      #  #  #    █      █  ")
       print("|    \| /        # ###  ▄  █      █  ")
-
-      print("System is online. NADpy 1.1.0, progame1201")
+      print("")
+      print("---  |---  \   /   |    | |---   |---\      /\     ----- |--- ");
+      print("|    |      \ /    |    | |   \  |   |     /  \      |   |    ");
+      print("---  |---   / \    |    | |---   |   |    ------     |   |--- ");
+      print("  |  |     /   \   |    | |      |   |   /      \    |   |    ");
+      print("---  |--- /     \  |----| |      |---/  /        \   |   |--- ");
+      print("")
+      print("System is online. NADpy 1.1.1, progame1201")
       print("type help to see all commands")
       st = False
       usn = 0 
@@ -277,7 +290,143 @@ while True:
       login = False 
       ips = False 
       ip = False 
-      continue
+      if i100 == True :
+         print("")
+         print("and now you fucked 1000000000000 people!");
   if S == "exit" :
       sys.exit()
-    
+  if S == "i100" :
+      os.system('CLS')
+      sleep(4)
+      print("i fucked 100 people!")
+      sleep(0.5)
+      os.system('CLS')
+      print("i fucked 200 people!")
+      sleep(0.5)
+      os.system('CLS')
+      print("i fucked 500 people!")
+      sleep(0.5)
+      os.system('CLS')
+      print("i fucked 1000 people!")
+      sleep(1)
+      os.system('CLS')
+      print("i fucked 5000 people!")
+      sleep(1)
+      os.system('CLS')
+      print("i fucked 10000 people!")
+      sleep(2)
+      os.system('CLS')
+      print("i fucked 20000 people!")
+      sleep(1.5)
+      os.system('CLS')
+      print("i fucked 70000 people!")
+      sleep(1.5)
+      os.system('CLS')
+      print("i fucked 100000 people!")
+      sleep(2.5)
+      os.system('CLS')
+      print("i fucked 300000 people!")
+      sleep(2.5)
+      os.system('CLS')
+      print("i fucked 600000 people!")
+      sleep(2.5)
+      os.system('CLS')
+      print("i fucked 800000 people!")
+      sleep(2.5)
+      os.system('CLS')
+      print("i fucked 900000 people!")
+      sleep(5)
+      os.system('CLS')
+      print("i fucked 999999 people!")
+      sleep(3)
+      os.system('CLS')
+      print("i fucked 1000000 people!")
+      sleep(4)
+      os.system('CLS')
+      print("i fucked 10000000 people!")
+      sleep(4)
+      os.system('CLS')
+      print("i fucked 1000000000 people!")
+      sleep(4)
+      os.system('CLS')
+      print("i fucked 10000000000 people!")
+      sleep(5)
+      os.system('CLS')
+      print("i fucked 1000000000000 people!")
+      sleep(3)
+      os.system('CLS')
+      sleep(1)
+      print (" / ")
+      sleep(0.1)
+      os.system('CLS') 
+      print (" | ")
+      sleep(0.1)
+      os.system('CLS') 
+      print (" \ ")
+      sleep(0.2)
+      os.system('CLS') 
+      print (" - ")
+      sleep(0.1)
+      os.system('CLS') 
+      print (" / ")
+      sleep(0.1)
+      os.system('CLS') 
+      print (" | ")
+      sleep(0.1)
+      os.system('CLS') 
+      print (" \ ")
+      sleep(0.2)
+      os.system('CLS') 
+      print (" - ")
+      sleep(0.1)
+      os.system('CLS') 
+      print (" / ")
+      sleep(0.2)
+      os.system('CLS') 
+      print (" | ")
+      sleep(0.1)
+      os.system('CLS') 
+      print (" \ ")
+      sleep(0.1)
+      os.system('CLS') 
+      print (" - ")
+      sleep(0.1)
+      os.system('CLS') 
+      print (" / ")
+      sleep(0.1)
+      os.system('CLS') 
+      print (" | ")
+      sleep(0.1)
+      os.system('CLS') 
+      print (" \ ")
+      sleep(0.1)
+      os.system('CLS') 
+      print (" - ")
+      sleep(0.1)
+      os.system('CLS') 
+      sleep(3)
+      print (".")
+      sleep(1.5)
+      os.system('CLS') 
+      print ("..")
+      sleep(1.5)
+      os.system('CLS') 
+      print ("...")
+      sleep(1.5)
+      os.system('CLS') 
+      print("Hello!")
+      sleep(2)
+      print("|\    |     /\     ###      ███ █   █")
+      print("| \   |    /  \    #  #    █  █  █ █ ")
+      print("|  \  |   -----#   #  #    ███    █  ")
+      print("|   \ |  /      #  #  #    █      █  ")
+      print("|    \| /        # ###  ▄  █      █  ")
+      print("")
+      print("---  |---  \   /   |    | |---   |---\      /\     ----- |--- ");
+      print("|    |      \ /    |    | |   \  |   |     /  \      |   |    ");
+      print("---  |---   / \    |    | |---   |   |    ------     |   |--- ");
+      print("  |  |     /   \   |    | |      |   |   /      \    |   |    ");
+      print("---  |--- /     \  |----| |      |---/  /        \   |   |--- ");
+      print("")
+      print("and now you fucked 1000000000000 people!")
+      i100 = True
